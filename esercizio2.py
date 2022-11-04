@@ -131,4 +131,12 @@ while i < len(thislist): #Utilizzare la len()funzione per determinare la lunghez
 thislist = ["apple", "banana", "cherry"]
 [print(x) for x in thislist]
 
-# Questo ti permette di
+# Questo ti permette formare una nuova lista basata su una già esistente con una specifica condizione
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = [x for x in fruits if "a" in x]
+print(newlist)
+
+# vediamo la sintassi
+newlist = [expression for item in iterable if condition == True] #questo non cambia la vecchia lista
+#La condizione è facoltativa
+#
