@@ -114,23 +114,21 @@ thislist = ["apple", "banana", "cherry"]
 for x in thislist:
   print(x)
 
-# 
+# Stampa tutti gli articoli facendo riferimento al loro numero di indice con "range" e "len"
 thislist = ["apple", "banana", "cherry"]
 for i in range(len(thislist)):
-  print(thislist[i])
+  print(thislist[i]) #L'iterabile creato nell'esempio sopra è [0, 1, 2]
 
-#
+#È possibile scorrere gli elementi dell'elenco utilizzando un while ciclo
 thislist = ["apple", "banana", "cherry"]
 i = 0
-while i < len(thislist):
+while i < len(thislist): #Utilizzare la len()funzione per determinare la lunghezza dell'elenco, 
+#Quando i sarà maggiore della lunghezza della lista il ciclo while finirà poiché la lista è finita
   print(thislist[i])
-  i = i + 1
+  i = i + 1 #Ricordarsi di aumentare l'indice di 1 dopo ogni iterazione.
 
-#
+#La sintassi più breve per scorrere gli elenchi
 thislist = ["apple", "banana", "cherry"]
 [print(x) for x in thislist]
 
-
-
-
-
+# Questo ti permette di
