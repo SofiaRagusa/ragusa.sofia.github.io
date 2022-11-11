@@ -6,4 +6,4 @@ num_lista =[0,6,2,8,4]
 fusion_lista = num_lista+animali_lista
 for x in num_lista:
     if x>5:
-        print(x)
+        print(x) 
