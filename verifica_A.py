@@ -17,3 +17,9 @@ for x in listone1:
     if x < z:
         listone2.append(x)
 print(listone2)
+
+for x in listone1:
+    if x in listone2:
+        pass
+    else:
+        print(x)
