@@ -1,0 +1,27 @@
+li{
+    color: rgb(80, 80, 243);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color:bisque;
+}
+.bighead{
+    background-color: antiquewhite;
+    width:fit-content;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    border-radius: 9px;
+}
+.centerme{
+    display:flex;
+    justify-content: center;
+}
+.aggressive{
+    color: rgb(210, 179, 240);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
