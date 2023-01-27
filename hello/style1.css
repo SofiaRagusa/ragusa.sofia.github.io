@@ -1,0 +1,22 @@
+img {
+    border-radius: 47%;
+}
+
+.center-box{
+    display: flex;
+    justify-content: center;
+}
+
+.titolo{
+    color: goldenrod;
+    text-align: center;
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: antiquewhite;
+}
+.s{
+    display: flex;
+    justify-content: space-around;
+}
